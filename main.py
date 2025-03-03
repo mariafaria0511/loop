@@ -1,6 +1,4 @@
 # Loop Assignment
-from itertools import accumulate
-
 print("Welcome to Taco Palace")
 print("Please view the menu below and make a selection")
 print("Taco Palace Menu:")
@@ -10,11 +8,9 @@ print("3.Nachos")
 print("4.Soft Drink")
 print("5.Quit")
 
-
 total = 0
 list_of_inputs = []
 choice = int(input("Pick a menu option: \n"))
-
 
 while choice<5:
     print("1.Taco")
